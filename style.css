@@ -13,7 +13,7 @@
     width: 60%;
     max-width: 60%;
 }
-.links-container > p {
+.links-container > a > p {
     margin: 0px 10px;
 }
 .navbar-icon {
