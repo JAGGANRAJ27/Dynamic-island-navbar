@@ -1,0 +1,34 @@
+.din-dynamic-island-container {
+    width: min(98%, 800px);
+    position: fixed;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: #333;
+    border-radius: 50px;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+  }
+  .din-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    width: 60%;
+    overflow: hidden;
+  }
+  .din-link-item {
+    margin: 0 10px;
+    color: #f7f7f8;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .din-navbar-icon {
+    font-size: 2rem;
+    color: #f7f7f8;
+    cursor: pointer;
+  }
+  
